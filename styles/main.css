@@ -1,0 +1,88 @@
+ 
+ 
+nav >div {
+ width: calc(100%/3);
+ text-align: center;
+}
+section>div{
+ 
+  background: #0000ff4f;
+  padding: 21px 14px 23px 14px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 14%;
+  border: 1px solid black;
+}
+ 
+*{
+  font-family: 'Muli', sans-serif;
+  /*margin: 0;*/
+} 
+a{
+  color: #FFEB3B;
+}
+.nav-tabs {
+  border-bottom: 2px solid #dee2e6;
+}
+.bg-light {
+  background-color: #f8f9fa54!important;
+} 
+nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { 
+  border-bottom: solid 4px; 
+}
+.nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-bottom: 4px solid transparent; 
+} 
+.navbar-light .navbar-brand {
+  color: rgba(255, 255, 255);   
+}
+body{ 
+  background-image: url("https://www.xtrafondos.com/wallpapers/textura-reciclado-arrugado-azul-64.jpg");
+  background-color: #cccccc; 
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}  
+nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fffffffc;
+  background-color: #ffffff4d;
+  border-color: #dee2e6 #dee2e6 #fff;
+}  
+#divsection{  display: flex; }
+#imgdiv{ padding-right: 20px; }
+i{ padding-left: 40px; }
+#cont{ display: flex; }
+a{ padding-right: 20px; }
+#p{ background: #0000ff4f; }
+section > div > h4{ padding-right: 20px; } 
+h3,h1{
+  color: rgba(255, 255, 255); 
+}
+#h1,#h3{
+  background: #ffffff47;
+}
+
+.hero-image,.hero-image2 {
+  background-image: url("https://www.xtrafondos.com/wallpapers/iron-man-endgame-2991.jpg");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image2{
+  background-image: url("http://overnature.net/download/735-la-puesta-del-sol-fondos-de-pantalla.jpg");
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
